@@ -1,6 +1,6 @@
 //Maya ASCII 2020 scene
 //Name: bender.ma
-//Last modified: Fri, Jun 25, 2021 07:13:56 PM
+//Last modified: Fri, Jun 25, 2021 07:14:22 PM
 //Codeset: 1252
 requires maya "2020";
 requires "stereoCamera" "10.0";
@@ -10,7 +10,7 @@ fileInfo "product" "Maya 2020";
 fileInfo "version" "2020";
 fileInfo "cutIdentifier" "201911140446-42a737a01c";
 fileInfo "osv" "Microsoft Windows 10 Technical Preview  (Build 19042)\n";
-fileInfo "UUID" "525EF491-40AD-294C-08B4-46A607331D11";
+fileInfo "UUID" "2E502FBD-4FDC-3C17-E295-2E9F87D1D12A";
 fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "A3B973DB-47D2-4298-20CC-32BB72BC2D61";
@@ -3613,7 +3613,7 @@ createNode mesh -n "pCylinderShape11" -p "pCylinder11";
 	setAttr ".cdvm[0]"  0 1 1;
 createNode transform -n "pCylinder12";
 	rename -uid "1B3B319B-4057-148D-B292-D8B1911E3009";
-	setAttr ".t" -type "double3" 0.00010428632079738723 6.826025714773281 0 ;
+	setAttr ".t" -type "double3" 0.00010428632079738723 6.7330999301498906 0 ;
 	setAttr ".s" -type "double3" 0.56896728840871158 0.59585761333948772 0.56896728840871158 ;
 createNode mesh -n "pCylinderShape12" -p "pCylinder12";
 	rename -uid "413A5932-4F2A-942B-2944-7C9AFFDB2B9D";
